@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-func main() {
+func hello() {
 	const (
 		sun = iota
 		mon
