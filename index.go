@@ -1,11 +1,10 @@
 package main
 
 import (
-	"practice/input"
+	"fmt"
+	"practice/test"
 )
 
 func main() {
-	input.String()
-	input.Int()
-	input.SplitInt()
+	fmt.Println(test.Add(3, 5))
 }
